@@ -75,7 +75,7 @@ A = lambda t,y: [[-((Dm/Rm)+(Da/Ra))*E(t), Dm/Rm,  0 , Da/Ra,  0 , -1],
                [ 0 ,  0 , -Rc/Ls, 1/Ls, -1/Ls,  0 ],
                [Da*E(t)/(Ra*Ca),  0 , -1/Ca, -Da/(Ra*Ca),  0 , 1/Ca],
                [ 0 , 1/(Rs*Cs), 1/Cs,  0 , -1/(Rs*Cs),  0 ],
-               [E(t)/(Li + Lo + beta1),  0 ,  0 , -1/(Li + Lo + beta1),  0 , -(beta0 + Ri + Rk(Vve) + Ro)/(Li + Lo + beta1)]]
+               [E(t)/(Li + Lo + beta1),  0 ,  0 , -1/(Li + Lo + beta1),  0 , -(beta0 + Ri + Rk(Pve) + Ro)/(Li + Lo + beta1)]]
 
 
 f = lambda t,y: np.array([
